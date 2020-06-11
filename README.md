@@ -1,7 +1,7 @@
 # Davidzas' Countdown
 This application was developed using [Reactjs]([https://reactjs.org/](https://reactjs.org/)) and [React bootstrap]([https://react-bootstrap.github.io/](https://react-bootstrap.github.io/)).
 
-## Instalation
+## Installation
 ```bash
 npm i
 ```
