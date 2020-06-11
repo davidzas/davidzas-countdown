@@ -1,0 +1,87 @@
+.countdown-panel {
+    padding-top: 40px;
+
+    .card {
+        padding: 20px;
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+        max-width: 500px;
+
+        input {
+            max-width: 100%;
+        }
+
+        .card-title {
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    .error {
+        font-size: 12px;
+        color: red;
+        font-style: italic;
+        ;
+    }
+
+    .countdown-time {
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .clear-button {
+        position: absolute;
+        top: calc(50% - 26px);
+        font-size: 50px;
+        line-height: 50px;
+        color: #adb5bd;
+    }
+
+    .btn:focus {
+        box-shadow: none;
+    }
+
+    .speed-buttons {
+        text-align: center;
+
+        button {
+            margin: 0 10px;
+            width: 20%;
+        }
+    }
+
+    .floating-text-top {
+        font-size: 20px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        font-style: italic;
+        div {
+            position: absolute;
+            width: 100%;
+        }
+    }
+
+    .color-red {
+        color: red;
+    }
+
+    .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+    }
+
+    @keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+
+    @-webkit-keyframes blink-animation {
+        to {
+            visibility: hidden;
+        }
+    }
+}
